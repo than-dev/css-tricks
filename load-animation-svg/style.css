@@ -1,0 +1,49 @@
+:root {
+	--color-1: #6e40aa;
+	--color-2: #4c6edb;
+	--color-3: #24aad8;
+	--color-4: #1ac7c2;
+	--color-5: #1ddea3;
+}
+
+.circle {
+	cy: 50;
+	r: 20;
+	animation: load 1250ms ease-in-out both infinite;
+}
+
+.circle:nth-child(1) {
+	cx: 60;
+	fill: var(--color-1);
+}
+
+.circle:nth-child(2) {
+	cx: 120;
+	fill: var(--color-2);
+	animation-delay: 100ms;
+}
+
+.circle:nth-child(3) {
+	cx: 180;
+	fill: var(--color-3);
+	animation-delay: 200ms;
+}
+
+.circle:nth-child(4) {
+	cx: 240;
+	fill: var(--color-4);
+	animation-delay: 300ms;
+}
+
+.circle:nth-child(5) {
+	cx: 300;
+	fill: var(--color-5);
+	animation-delay: 400ms;
+}
+
+@keyframes load {
+	50% {
+		cy: 150;
+		r: 13;
+	}
+}
