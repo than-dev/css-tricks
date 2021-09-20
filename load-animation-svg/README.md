@@ -1,0 +1,1 @@
+![](./resources/load-animation-svg.webm)
