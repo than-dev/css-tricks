@@ -22,8 +22,7 @@ body {
 	position: relative;
 	transform-style: preserve-3d;
 	transition: transform 1s;
-	transform: rotateX(-90deg);
-	animation: rotateCube 5s infinite;
+	animation: rotateCube 3s infinite linear;
 }
 
 .cube-face {
@@ -69,10 +68,10 @@ body {
 }
 
 @keyframes rotateCube {
-	50% {
-		transform: rotateY(180deg);
+	0% {
+		transform: rotateX(0deg) rotateY(0deg);
 	}
 	100% {
-		transform: rotateY(-180deg);
+		transform: rotateX(360deg) rotateY(360deg);
 	}
 }
