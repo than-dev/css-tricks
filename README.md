@@ -19,7 +19,7 @@ Here you will find any CSS articles, tips, example and much more about this amaz
 ### Until now 🔮
 
 - [x] Load Animation CSS + SVG
-- [ ] Animated 3D Cube
+- [x] Animated 3D Cube
 
 <br>
 
