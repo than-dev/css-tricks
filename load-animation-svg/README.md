@@ -1,1 +1,1 @@
-![](./resources/load-animation-svg.webm)
+![](./resources/load-animation-svg.gif)
