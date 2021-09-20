@@ -7,6 +7,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .scene {
@@ -25,45 +27,51 @@ body {
 	animation: rotateCube 3s infinite linear;
 }
 
+.cube:hover {
+	transform: scale3d(1.5);
+}
+
 .cube-face {
 	position: absolute;
 	width: 200px;
 	height: 200px;
-	border: 2px solid black;
 	line-height: 200px;
 	font-size: 40px;
 	font-weight: bold;
 	color: white;
 	text-align: center;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 0%,
+		rgba(253, 29, 29, 1) 50%,
+		rgba(252, 176, 69, 1) 100%
+	);
 }
 
 .front {
-	background: red;
 	transform: rotateY(0deg) translateZ(100px);
 }
 
 .right {
-	background: yellow;
+	background: #fcb045;
 	transform: rotateY(90deg) translateZ(100px);
 }
 
 .back {
-	background: green;
 	transform: rotateY(180deg) translateZ(100px);
 }
 
 .left {
-	background: aqua;
+	background: #833ab4;
 	transform: rotateY(-90deg) translateZ(100px);
 }
 
 .top {
-	background: blue;
 	transform: rotateX(90deg) translateZ(100px);
 }
 
 .bottom {
-	background: purple;
 	transform: rotateX(-90deg) translateZ(100px);
 }
 
