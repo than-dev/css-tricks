@@ -6,6 +6,12 @@
 	--color-5: #1ddea3;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .circle {
 	cy: 50;
 	r: 20;
