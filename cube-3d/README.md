@@ -1,1 +1,1 @@
-![](./resources/../../resources/cube-3d.gif)
+![](../resources/cube-3d.gif)
