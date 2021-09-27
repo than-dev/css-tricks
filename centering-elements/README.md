@@ -1,8 +1,6 @@
 # 💡 How to center elements in CSS - Complete Guide
 
 <br>
-<hr>
-<br>
 
 ## 🃏 Horizontally
 
