@@ -1,3 +1,8 @@
+<div align="center">
+	<img src="https://image.freepik.com/free-vector/anchor-design-template_7112-274.jpg" >
+</div>
+
+
 # 💡 How to center elements in CSS - Complete Guide
 
 <br>
