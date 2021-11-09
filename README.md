@@ -20,6 +20,7 @@ Here you will find any CSS articles, tips, example and much more about this amaz
 
 - [x] Load Animation CSS + SVG
 - [x] Animated 3D Cube
+- [x] Centering Elements with CSS
 
 <br>
 
