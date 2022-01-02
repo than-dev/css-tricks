@@ -11,7 +11,7 @@
 <br>
 
 ### Description 📝
-Here you will find any CSS articles, tips, example and much more about this amazing tool!
+Here you will find many CSS articles, tips, examples and much more about this amazing tool!
 
 
 <br>
